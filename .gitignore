@@ -1,0 +1,43 @@
+# --- Python Backend ---
+
+# Virtual environment folder (e.g., venv, .venv, env)
+/venv/
+/.venv/
+/env/
+
+# Python compiled files and cache
+__pycache__/
+*.pyc
+
+# Local environment variables (CRITICAL for security)
+.env
+.flaskenv
+
+
+# --- Next.js / Node.js Frontend ---
+# This path matches your 'pdf-parser-frontend' subfolder
+
+# The main dependencies folder you mentioned
+/pdf-parser-frontend/node_modules/
+
+# Next.js build output
+/pdf-parser-frontend/.next/
+
+# Next.js static export folder
+/pdf-parser-frontend/out/
+
+# Local environment variables (CRITICAL for security)
+/pdf-parser-frontend/.env.local
+/pdf-parser-frontend/.env.development.local
+/pdf-parser-frontend/.env.test.local
+
+# Logs
+/pdf-parser-frontend/npm-debug.log*
+/pdf-parser-frontend/yarn-error.log*
+
+
+# --- OS / IDE Files ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
