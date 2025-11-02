@@ -41,3 +41,10 @@ __pycache__/
 Thumbs.db
 .idea/
 .vscode/
+
+# --- PDF Statement Samples ---
+# Ignore these folders and all their contents
+/hdfc_statements/
+/idfc_statements/
+/axis_statements/
+/icici_statements/

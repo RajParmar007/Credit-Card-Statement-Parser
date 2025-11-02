@@ -7,6 +7,17 @@ It consists of two parts:
 - **Python (Flask) Backend**: An API that handles the PDF parsing.
 - **Next.js (Node.js) Frontend**: A local web interface to upload files and view the JSON output.
 
+## Sample PDFs
+
+**Note:** Due to copyright, sample PDF statements are not included in this repository.
+
+To run this project, you must provide your own sample PDFs. Please create the following folders in the project root and add your statements to them:
+
+- `/hdfc_statements/`
+- `/idfc_statements/`
+- `/axis_statements/`
+- `/icici_statements/`
+
 ## How to Run This Project
 
 You must run both the backend and frontend simultaneously in two separate terminals.
